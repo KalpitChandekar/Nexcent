@@ -15,8 +15,7 @@ const config: Config = {
       },
       backgroundColor: {
         green: "#4CAF4F",
-        hero: "#E0E0E0",
-        silver: "#F5F7FA",
+        hero: "#F5F7FA",
         footer: "#263238",
       },
     },
