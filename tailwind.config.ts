@@ -8,8 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {},
-      backgroundColor: {},
+      colors: {
+        green: "#4CAF4F",
+        main: "#4D4D4D",
+        gray: "#717171",
+      },
+      backgroundColor: {
+        green: "#4CAF4F",
+        hero: "#E0E0E0",
+        silver: "#F5F7FA",
+        footer: "#263238",
+      },
     },
   },
   plugins: [],
