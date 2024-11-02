@@ -3,6 +3,7 @@ import Community from "@/components/Community";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import PixelGrade from "@/components/PixelGrade";
+import Testimonial from "@/components/Testimonial";
 
 const page = () => {
   return (
@@ -14,6 +15,9 @@ const page = () => {
       <Clients />
       <Community />
       <PixelGrade />
+      <div className="bg-hero">
+        <Testimonial />
+      </div>
     </div>
   );
 };
