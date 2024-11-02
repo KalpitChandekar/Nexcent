@@ -2,13 +2,15 @@ import Image from "next/image";
 
 const Community = () => {
   return (
-    <div className="max-w-6xl mx-auto py-40 text-center">
+    <div className="max-w-6xl mx-auto my-40 text-center space-y-20">
       {" "}
-      <h1 className="text-2xl font-semibold">
-        Manage your entire community <br /> in a single system
-      </h1>
-      <p className="text-gray text-sm">Who is Nextcent suitable for?</p>
-      <div className="flex items-center justify-between space-y-20">
+      <div className="space-y-2">
+        <h1 className="text-2xl font-semibold">
+          Manage your entire community <br /> in a single system
+        </h1>
+        <p className="text-gray text-sm">Who is Nextcent suitable for?</p>
+      </div>
+      <div className="flex items-center justify-between">
         <div className="flex flex-col items-center justify-center space-y-2 max-w-[16rem]">
           <Image
             width={46}
@@ -62,5 +64,5 @@ const Community = () => {
       </div>
     </div>
   );
-}
-export default Community
+};
+export default Community;
