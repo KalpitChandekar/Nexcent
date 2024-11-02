@@ -2,6 +2,7 @@ import Clients from "@/components/Clients";
 import Community from "@/components/Community";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import PixelGrade from "@/components/PixelGrade";
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       </div>
       <Clients />
       <Community />
+      <PixelGrade />
     </div>
   );
 };
