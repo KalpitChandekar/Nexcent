@@ -1,5 +1,6 @@
 import Clients from "@/components/Clients";
 import Community from "@/components/Community";
+import Helping from "@/components/Helping";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import PixelGrade from "@/components/PixelGrade";
@@ -9,13 +10,16 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-hero h-[33rem]">
+      <div className="bg-hero h-[33rem] max-w-7xl mx-auto">
         <Hero />
       </div>
       <Clients />
       <Community />
       <PixelGrade />
-      <div className="bg-hero">
+      <div className="bg-hero max-w-6xl mx-auto">
+        <Helping />
+      </div>
+      <div className="bg-hero max-w-6xl mx-auto">
         <Testimonial />
       </div>
     </div>
