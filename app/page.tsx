@@ -1,5 +1,6 @@
 import Clients from "@/components/Clients";
 import Community from "@/components/Community";
+import Design from "@/components/Design";
 import Helping from "@/components/Helping";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -8,21 +9,22 @@ import Testimonial from "@/components/Testimonial";
 
 const page = () => {
   return (
-    <div>
+    <main>
       <Navbar />
-      <div className="bg-hero h-[33rem] max-w-7xl mx-auto">
+      <section className="bg-hero py-16">
         <Hero />
-      </div>
+      </section>
       <Clients />
       <Community />
       <PixelGrade />
-      <div className="bg-hero max-w-6xl mx-auto">
+      <section className="bg-hero">
         <Helping />
-      </div>
-      <div className="bg-hero max-w-6xl mx-auto">
+      </section>
+      <Design />
+      <section className="bg-hero my-32">
         <Testimonial />
-      </div>
-    </div>
+      </section>
+    </main>
   );
 };
 export default page;
