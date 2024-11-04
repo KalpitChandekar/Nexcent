@@ -61,7 +61,7 @@ const Marketing = () => {
           />
           <div className="bg-white rounded-md px-1 py-3 shadow-xl text-center absolute -bottom-20 w-72 space-y-4">
             <h1 className="text-lg font-semibold text-gray">
-              Revamping the Membership Model with Triathlon Australia
+              Revamping the Membership Model with Triathlon <br />Australia
             </h1>
             <div className="flex gap-2 items-center justify-center">
               <h1 className="text-xl text-green font-semibold">Readmore</h1>
