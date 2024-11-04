@@ -2,8 +2,7 @@ import Image from "next/image";
 
 const Community = () => {
   return (
-    <div className="max-w-6xl mx-auto my-40 text-center space-y-20">
-      {" "}
+    <div className="max-w-6xl mx-auto my-32 text-center space-y-20 px-4">
       <div className="space-y-2">
         <h1 className="text-2xl font-semibold">
           Manage your entire community <br /> in a single system

@@ -2,17 +2,15 @@ import Image from "next/image";
 
 const PixelGrade = () => {
   return (
-    <div className="max-w-6xl mx-auto my-40 flex justify-between items-center">
-      <div className="w-1/2">
-        <Image
-          width={309}
-          height={220}
-          src="/pixelgrade.png"
-          alt="member"
-          className="w-full"
-        />
-      </div>
-      <div className="space-y-4 max-w-xl">
+    <section className="max-w-6xl mx-auto my-40 flex items-center gap-10 px-4">
+      <Image
+        width={309}
+        height={220}
+        src="/pixelgrade.png"
+        alt="member"
+        className="max-w-xs w-full"
+      />
+      <div className="space-y-4 w-full">
         <h1 className="text-2xl font-semibold">
           The unseen of spending three years <br /> at Pixelgrade
         </h1>
@@ -28,7 +26,7 @@ const PixelGrade = () => {
           Learn More{" "}
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 export default PixelGrade;

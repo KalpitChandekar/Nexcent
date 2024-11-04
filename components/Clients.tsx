@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const Clients = () => {
   return (
-    <div className="max-w-6xl mx-auto my-20 space-y-2 text-center">
+    <div className="max-w-6xl mx-auto my-32 space-y-2 text-center px-4">
       <h1 className="text-2xl font-semibold">Our Clients</h1>
       <p className="text-gray text-sm">
         We have been working with some Fortune 500+ clients
       </p>
-      <div className="flex items-center justify-between py-10">
+      <div className="flex items-center justify-center gap-28 py-10">
         <Image
           width={34}
           height={34}

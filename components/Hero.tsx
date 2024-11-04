@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="max-w-6xl mx-auto space-y-16 pt-16">
-      <div className="flex items-center justify-between">
-        <div className="space-y-6">
+    <div className="max-w-6xl mx-auto space-y-16 px-4">
+      <div className="flex items-center gap-10 justify-center">
+        <div className="space-y-6 w-full">
           <h1 className="text-6xl font-semibold">
             Lessons and insights <br />
             <span className="text-green">from 8 years</span>
@@ -16,15 +16,13 @@ const Hero = () => {
             Register
           </button>
         </div>
-        <div className="">
-          <Image
-            src="/hero.png"
-            width={274}
-            height={284}
-            alt="hero"
-            className="w-[22rem]"
-          />
-        </div>
+        <Image
+          src="/hero.png"
+          width={1090}
+          height={1134}
+          alt="hero"
+          className="max-w-sm w-full"
+        />
       </div>
 
       <div className="flex items-center justify-center">
