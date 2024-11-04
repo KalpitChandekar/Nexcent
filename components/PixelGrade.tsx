@@ -4,8 +4,8 @@ const PixelGrade = () => {
   return (
     <section className="max-w-6xl mx-auto my-40 flex items-center gap-10 px-4">
       <Image
-        width={309}
-        height={220}
+        width={1231}
+        height={917}
         src="/pixelgrade.png"
         alt="member"
         className="max-w-xs w-full"
