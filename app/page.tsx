@@ -1,5 +1,6 @@
 import Clients from "@/components/Clients";
 import Community from "@/components/Community";
+import Demo from "@/components/Demo";
 import Design from "@/components/Design";
 import Helping from "@/components/Helping";
 import Hero from "@/components/Hero";
@@ -26,6 +27,7 @@ const page = () => {
         <Testimonial />
       </section>
       <Marketing />
+      <Demo/>
     </main>
   );
 };
