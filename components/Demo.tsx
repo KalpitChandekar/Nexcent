@@ -2,7 +2,7 @@ import { MoveRight } from "lucide-react";
 
 const Demo = () => {
   return (
-    <div className="flex items-center justify-center flex-col gap-6 my-20 text-center">
+    <div className="flex items-center justify-center flex-col gap-6 mt-20 mb-12 text-center px-4">
       <h1 className="text-5xl font-semibold text-[#263238]">
         Pellentesque suscipit <br /> fringilla libero eu.
       </h1>
