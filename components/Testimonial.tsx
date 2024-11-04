@@ -3,17 +3,15 @@ import { MoveRight } from "lucide-react";
 
 const Testimonial = () => {
   return (
-    <div className="max-w-6xl mx-auto my-40 flex justify-between items-center py-10">
-      <div className="w-1/2">
-        <Image
-          width={250}
-          height={250}
-          src="/Customer1.png"
-          alt="member"
-          className="w-[80%]"
-        />
-      </div>
-      <div className="space-y-3 max-w-xl">
+    <div className="max-w-6xl mx-auto flex gap-10 items-center py-10 px-4">
+      <Image
+        width={906}
+        height={907}
+        src="/Customer1.png"
+        alt="member"
+        className="max-w-xs w-full"
+      />
+      <div className="space-y-3 w-full">
         <p className="text-gray text-sm">
           Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
           sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.
