@@ -3,6 +3,7 @@ import Community from "@/components/Community";
 import Design from "@/components/Design";
 import Helping from "@/components/Helping";
 import Hero from "@/components/Hero";
+import Marketing from "@/components/Marketing";
 import Navbar from "@/components/Navbar";
 import PixelGrade from "@/components/PixelGrade";
 import Testimonial from "@/components/Testimonial";
@@ -24,6 +25,7 @@ const page = () => {
       <section className="bg-hero my-32">
         <Testimonial />
       </section>
+      <Marketing />
     </main>
   );
 };
