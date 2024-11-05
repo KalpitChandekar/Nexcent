@@ -16,7 +16,10 @@ const config: Config = {
       backgroundColor: {
         green: "#4CAF4F",
         hero: "#F5F7FA",
-        footer: "#263238",
+        footer: "#0B0D17",
+      },
+      placeholderColor: {
+        custom: "#F5F7FA",
       },
     },
   },

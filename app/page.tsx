@@ -2,6 +2,7 @@ import Clients from "@/components/Clients";
 import Community from "@/components/Community";
 import Demo from "@/components/Demo";
 import Design from "@/components/Design";
+import Footer from "@/components/Footer";
 import Helping from "@/components/Helping";
 import Hero from "@/components/Hero";
 import Marketing from "@/components/Marketing";
@@ -27,7 +28,10 @@ const page = () => {
         <Testimonial />
       </section>
       <Marketing />
-      <Demo/>
+      <Demo />
+      <section className="bg-footer">
+        <Footer />
+      </section>
     </main>
   );
 };
