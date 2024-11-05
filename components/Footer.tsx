@@ -47,8 +47,8 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="flex gap-32">
-        <div className="flex gap-32">
+      <div className="flex gap-28">
+        <div className="flex gap-28">
           <div className="space-y-8">
             <h1 className="text-2xl text-white font-semibold">Company</h1>
             <div className="space-y-4 flex flex-col text-[#F5F7FA]">
