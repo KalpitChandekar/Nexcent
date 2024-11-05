@@ -1,4 +1,4 @@
-import { MoveRight } from "lucide-react";
+import { Menu, MoveRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,11 +10,19 @@ const Navbar = () => {
         width={431}
         height={67}
         alt="logo"
-        className="w-32"
+        className="w-32 hidden md:block"
+      />
+      <Image
+        src="/icon.png"
+        width={98}
+        height={67}
+        alt="logo"
+        className="w-8
+         md:hidden"
       />
 
-      <div className="flex space-x-6 font-semibold">
-        <ul className="flex space-x-6 items-center justify-center">
+      <div className="flex md:space-x-6 font-semibold">
+        <ul className="md:flex hidden space-x-6 items-center justify-center">
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -31,10 +39,11 @@ const Navbar = () => {
             <Link href="/contact">Pricing</Link>
           </li>
         </ul>
-        <button className="flex gap-2 items-center justify-center bg-green text-white py-2 px-4 rounded-md">
+        <button className="md:flex hidden gap-2 items-center justify-center bg-green text-white py-2 px-4 rounded-md">
           Register Now
           <MoveRight size={16} />
         </button>
+        <Menu className="text-green block md:hidden"/>
       </div>
     </div>
   );

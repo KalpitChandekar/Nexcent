@@ -14,7 +14,7 @@ const page = () => {
   return (
     <main>
       <Navbar />
-      <section className="bg-hero py-16">
+      <section className="bg-hero md:py-16 py-10">
         <Hero />
       </section>
       <Clients />

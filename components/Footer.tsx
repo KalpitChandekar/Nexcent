@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between max-w-6xl mx-auto py-14 px-4">
+    <div className="flex md:flex-row flex-col gap-20 md:gap-0 md:justify-between max-w-6xl mx-auto py-14 px-4">
       <div className="space-y-8">
         <Image
           src="/footer-logo.png"
@@ -47,8 +47,8 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="flex gap-28">
-        <div className="flex gap-28">
+      <div className="flex md:flex-row flex-col md:gap-28 gap-20">
+        <div className="flex md:gap-28 gap-10">
           <div className="space-y-8">
             <h1 className="text-2xl text-white font-semibold">Company</h1>
             <div className="space-y-4 flex flex-col text-[#F5F7FA]">
@@ -84,9 +84,9 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Your email address"
-              className="w-64 outline-none text-black p-2 rounded-md overflow-hidden"
+              className="md:w-64 w-full outline-none text-black p-2 rounded-md overflow-hidden"
             />
-            <Send className="absolute top-2 right-2 text-black bg-white" />
+            <Send className="absolute top-2 right-2  text-black bg-white" />
           </div>
         </div>
       </div>

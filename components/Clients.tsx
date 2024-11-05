@@ -7,7 +7,7 @@ const Clients = () => {
       <p className="text-gray text-sm">
         We have been working with some Fortune 500+ clients
       </p>
-      <div className="flex items-center justify-center gap-28 py-10">
+      <div className="flex items-center justify-center gap-6 md:gap-28 py-10">
         <Image
           width={34}
           height={34}

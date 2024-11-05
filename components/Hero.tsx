@@ -3,9 +3,9 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="max-w-6xl mx-auto space-y-16 px-4">
-      <div className="flex items-center gap-10 justify-center">
+      <div className="flex md:flex-row flex-col items-center gap-10 justify-center">
         <div className="space-y-6 w-full">
-          <h1 className="text-6xl font-semibold">
+          <h1 className="md:text-6xl text-5xl font-semibold">
             Lessons and insights <br />
             <span className="text-green">from 8 years</span>
           </h1>

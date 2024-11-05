@@ -9,7 +9,7 @@ const Community = () => {
         </h1>
         <p className="text-gray text-sm">Who is Nextcent suitable for?</p>
       </div>
-      <div className="flex items-center justify-between">
+      <div className="flex md:flex-row flex-col gap-20 md:gap-0 items-center justify-between">
         <div className="flex flex-col items-center justify-center space-y-2 max-w-[16rem]">
           <Image
             width={46}

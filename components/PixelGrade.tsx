@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const PixelGrade = () => {
   return (
-    <section className="max-w-6xl mx-auto my-40 flex items-center gap-10 px-4">
+    <section className="max-w-6xl mx-auto my-40 flex md:flex-row flex-col items-center gap-10 px-4">
       <Image
         width={1231}
         height={917}
@@ -12,7 +12,7 @@ const PixelGrade = () => {
       />
       <div className="space-y-4 w-full">
         <h1 className="text-2xl font-semibold">
-          The unseen of spending three years <br /> at Pixelgrade
+          The unseen of spending three years <br className="hidden md:block"/> at Pixelgrade
         </h1>
         <p className="text-gray text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet

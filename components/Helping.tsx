@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Helping = () => {
   return (
-    <div className="max-w-6xl mx-auto flex items-center justify-around p-10 px-4">
+    <div className="max-w-6xl mx-auto flex md:flex-row flex-col gap-16 md:gap-0 items-center justify-around p-10 px-4">
       <div className="space-y-4">
         <h1 className="text-2xl font-semibold">
           Helping a local <br />
@@ -13,7 +13,7 @@ const Helping = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-x-20 gap-y-10">
+      <div className="grid grid-cols-2 md:gap-x-20 gap-x-10 gap-y-10">
         <div className="flex gap-2 items-center">
           <Image src="/members.png" alt="member" width={34} height={34} />
           <div className="">

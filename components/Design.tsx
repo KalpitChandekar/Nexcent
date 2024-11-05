@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Design = () => {
   return (
-    <section className="max-w-6xl mx-auto my-40 flex gap-10 items-center px-4">
+    <section className="max-w-6xl mx-auto my-40 flex md:flex-row flex-col gap-10 items-center px-4">
       <Image
         width={1200}
         height={1200}
@@ -12,7 +12,7 @@ const Design = () => {
       />
       <div className="space-y-4 w-full">
         <h1 className="text-2xl font-semibold">
-          How to design your site footer like <br /> we did
+          How to design your site footer like <br className="md:block hidden" /> we did
         </h1>
         <p className="text-gray text-sm">
           Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,

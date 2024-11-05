@@ -13,7 +13,7 @@ const Marketing = () => {
           membership income and lot&apos;s more.​
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-3 gap-32 md:gap-10">
         <div className="relative flex items-center justify-center">
           <Image
             src="/blog1.png"

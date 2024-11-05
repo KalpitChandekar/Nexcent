@@ -3,7 +3,7 @@ import { MoveRight } from "lucide-react";
 
 const Testimonial = () => {
   return (
-    <div className="max-w-6xl mx-auto flex gap-10 items-center py-10 px-4">
+    <div className="max-w-6xl mx-auto flex md:flex-row flex-col gap-10 items-center py-10 px-4">
       <Image
         width={906}
         height={907}
@@ -72,7 +72,7 @@ const Testimonial = () => {
             className=""
           />
           <div className="flex gap-2 items-center justify-center">
-            <h1 className="text-xl text-green font-semibold">
+            <h1 className="text-xl hidden md:block text-green font-semibold">
               Meet all customers{" "}
             </h1>
             <MoveRight className="text-green" size={18} />
